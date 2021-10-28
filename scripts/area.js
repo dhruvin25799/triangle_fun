@@ -25,9 +25,9 @@ function calculateArea(e) {
             (semiPerimeter - secondSideValue) *
             (semiPerimeter - thirdSideValue)
         ).toFixed(4);
-        output.innerText = `Area of a triangle using heron's formula is ${result} units`;
+        output.innerText = `Using heron's formula, Area of Triangle is ${result} units`;
     } else {
-        output.innerText = "Enter valid side lengths such that each side lengths";
+        output.innerText = "Oh, wait! These ain't valid side lengths";
     }
 }
 

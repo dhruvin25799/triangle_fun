@@ -9,8 +9,10 @@
   margin: 1rem auto;
   font-size: larger;
   padding: 1rem 0;
+  font-weight: bold;
 }
 
 .question-container p {
   margin: 1rem 0;
+  font-weight: bold;
 }

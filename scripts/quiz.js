@@ -8,11 +8,6 @@ const correctAnswers = [
     "one right angle",
     "12, 16, 20",
     "Equilateral triangle",
-    "100°",
-    "30°",
-    "a + b + c",
-    "no",
-    "45°",
 ];
 
 function calculateScore() {
@@ -26,7 +21,12 @@ function calculateScore() {
         index = index + 1;
     }
     // console.log("The score is "+score);
-    outputEl.innerText = "The score is " + score;
+    if(Number(score)==5) {
+        outputEl.innerText = "Congrats, you've scored full " + score;
+    }
+    else {
+        outputEl.innerText = "The score is " + score;
+    }
 }
 
 submitBtn.addEventListener("click", calculateScore);
