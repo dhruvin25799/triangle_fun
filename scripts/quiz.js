@@ -20,11 +20,9 @@ function calculateScore() {
         }
         index = index + 1;
     }
-    // console.log("The score is "+score);
-    if(Number(score)==5) {
+    if (Number(score) == 5) {
         outputEl.innerText = "Congrats, you've scored full " + score;
-    }
-    else {
+    } else {
         outputEl.innerText = "The score is " + score;
     }
 }
