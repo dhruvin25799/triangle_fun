@@ -1,71 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculate area of a triangle</title>
     <link rel="stylesheet" href="../styles/styles.css" />
-  </head>
-  <body>
-    <nav class="navigation container">
-        <div class="nav-brand">Dhruvin Mehta</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link " href="../index.html">Home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="./is-triangle.html">Is Triangle?</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="./hypo.html">Hypotenuse</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link link-active" href="./area.html">Area of Triangle</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="https://dhruvinmehta.netlify.app">Projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="https://dhruvinmehta.netlify.app/pages/blogs.html">Blogs</a>
-            </li>
-        </ul>
-    </nav>
-    <main class="calculate-area-main">
-      <h1 class="heading">Calculate Area of a triangle</h1>
-      <form id="calculate-area">
-        <label class="input-label" for="first-side">
+</head>
+
+<body>
+    <section id="title">
+        <nav class="navigation container">
+            <div class="nav-brand">Dhruvin Mehta</div>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline">
+                    <a class="link " href="../index.html">Home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="./is-triangle.html">Is Triangle?</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="./hypo.html">Hypotenuse</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <main class="container-center">
+        <h1 class="heading">Calculate Area of a triangle</h1>
+        <form id="calculate-area">
+            <label class="input-label" for="first-side">
           <p>Enter first side of a triangle</p>
-          <input class="input-text" required type="number" id="first-side" />
+          <input class="input" required type="number" id="first-side" />
         </label>
-        <label class="input-label" for="second-side">
+            <label class="input-label" for="second-side">
           <p>Enter second side of a triangle</p>
-          <input class="input-text" required type="number" id="second-side" />
+          <input class="input" required type="number" id="second-side" />
         </label>
-        <label class="input-label" for="third-side">
+            <label class="input-label" for="third-side">
           <p>Enter third side of a triangle</p>
-          <input class="input-text" required type="number" id="third-side" />
+          <input class="input" required type="number" id="third-side" />
         </label>
-        <button class="btn-check" type="submit">Calculate</button>
-      </form>
-      <p class="output calculate-area-output" id="output"></p>
+            <button class="btn-check" type="submit">Calculate</button>
+        </form>
+        <p class="output calculate-area-output" id="output"></p>
     </main>
+
+    <hr>
     <footer class="footer">
         <div class="footer-header">Social Media Handles</div>
         <ul class="social-links list-non-bullet">
             <li class="list-item-inline">
-                <a class="link" href="https://github.com/dhruvin25799">
-                    <img src="../images/icons/github.svg" alt="Github">
+                <a class="link" href="https://github.com/dhruvin25799" target="_blank">
+                    <img src="../images/icons/github-brands.svg" alt="Github">
                 </a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="https://linkedin.com/in/dhruvin-mehta-21a8a7190">
-                    <img src="../images/icons/linkedin.svg" alt="LinkedIn">
+                <a class="link" href="https://linkedin.com/in/dhruvin-mehta-21a8a7190" target="_blank">
+                    <img src="../images/icons/linkedin-brands.svg" alt="LinkedIn">
                 </a>
             </li>
-            
+            <li class="list-item-inline">
+                <a class="link" href="mailto:dhruvin.mehta25799@gmail.com" target="_blank">
+                    <img src="../images/icons/envelope-solid.svg" alt="Email">
+                </a>
+            </li>
+
         </ul>
     </footer>
     <script src="../scripts/area.js"></script>
-  </body>
+</body>
+
 </html>

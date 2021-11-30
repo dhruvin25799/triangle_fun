@@ -1,18 +1,29 @@
-.quiz-main {
-  margin: 2rem auto;
-  width: 90%;
-  text-align: center;
-}
-
-.question-container {
-  width: 85%;
-  margin: 1rem auto;
-  font-size: larger;
-  padding: 1rem 0;
-  font-weight: bold;
-}
-
-.question-container p {
-  margin: 1rem 0;
-  font-weight: bold;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+     :root {
+        --primary-color: #ff4c68;
+        --primary-color-hover: #ef8172;
+        --off-white: #f3f4f6;
+        --dark-gray: #6b7280;
+    }
+    
+    .quiz-main {
+        margin: 2rem auto;
+        width: 90%;
+        text-align: center;
+    }
+    
+    .question-container {
+        width: 85%;
+        margin: 1rem auto;
+        font-size: larger;
+        padding: 1rem 0;
+        font-weight: bold;
+        border: 3px solid var(--primary-color-hover);
+        border-radius: 0.5rem;
+    }
+    
+    .question-container p {
+        margin: 1rem 0;
+        font-weight: bold;
+    }
