@@ -28,21 +28,15 @@
     </section>
     <main class="container-center">
         <h1 class="heading">Calculate Area of a triangle</h1>
-        <form id="calculate-area">
-            <label class="input-label" for="first-side">
-          <p>Enter first side of a triangle</p>
-          <input class="input" required type="number" id="first-side" />
+        <label class="input-label" for="base">
+          <p>Enter base of a triangle</p>
+          <input class="input" required type="number" id="base" />
         </label>
-            <label class="input-label" for="second-side">
-          <p>Enter second side of a triangle</p>
-          <input class="input" required type="number" id="second-side" />
+        <label class="input-label" for="height">
+          <p>Enter height of a triangle</p>
+          <input class="input" required type="number" id="height" />
         </label>
-            <label class="input-label" for="third-side">
-          <p>Enter third side of a triangle</p>
-          <input class="input" required type="number" id="third-side" />
-        </label>
-            <button class="btn-check" type="submit">Calculate</button>
-        </form>
+        <button class="btn-check" type="submit" id="calc">Calculate</button>
         <p class="output calculate-area-output" id="output"></p>
     </main>
 
